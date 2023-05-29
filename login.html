@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="Resource/login.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <section class="contenedor-principal">
+      <div class="contenedor-datos">
+        <article class="descripcion-banco">
+          <div class="titulo">
+            <h1 class="titulo-principal">SPACE BANK</h1>
+          </div>
+          <div class="eslogan-prinicipal">
+            <p>
+              Space bank el futuro para sus inversiones con nuestro sistema IA
+              maneje su dinero de forma rapida y segura. lleve su inversion al
+              infinito y mas alla.
+            </p>
+          </div>
+          <div class="redes-sociales">
+            <button>Facebook</button>
+            <button>Instagram</button>
+            <button>Twitter</button>
+          </div>
+
+          <!-- TERMINA BOTONES REDES SOCIALES -->
+        </article>
+        <article class="datos-usuario-container">
+          <div class="titulo-login">
+            <h2>INICIO DE SESIÓN</h2>
+          </div>
+          <form action="" class="container">
+            <div class="input-container">
+              <div class="input-content">
+                <div class="input-dist">
+                  <div class="input-type">
+                    <input
+                      placeholder="User"
+                      required=""
+                      type="text"
+                      class="input-is"
+                      id="usuario"
+                    />
+                    <input
+                      placeholder="Password"
+                      required=""
+                      type="password"
+                      class="input-is"
+                      id="password"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+          <div class="caja-boton">
+            <!-- BOTON DE LANZAMIENTO -->
+            <button type="button" class="btn" onclick="login()">
+              <strong>Launch</strong>
+              <div id="container-stars">
+                <div id="stars"></div>
+              </div>
+              <div id="glow">
+                <div class="circle"></div>
+                <div class="circle"></div>
+              </div>
+            </button>
+            <!-- TERMINA BOTON DE LANZAMIENTO -->
+          </div>
+          <div class="datos-Nosecion">
+            <div>
+              <p>¿No tienes cuenta?</p>
+            </div>
+            <div><a href="">Regístrate</a></div>
+          </div>
+        </article>
+      </div>
+    </section>
+    <script src="JavaScript/login.js"></script>
+  </body>
+</html>
